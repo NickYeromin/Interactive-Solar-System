@@ -1,0 +1,42 @@
+.p-mercury,.p-venus,.p-earth,.p-mars,.p-jupiter,.p-saturn,.p-uranus,.p-neptune,.p-pluto{
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: 100%;
+    animation: rotate-planet 20s linear infinite;
+}
+@keyframes rotate-planet {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+.p-mercury{
+    background-image: url(../img/mercury.png);
+}
+.p-venus{
+    background-image: url(../img/venus.png);
+}
+.p-earth{
+    background-image: url(../img/earth.png);
+}
+.p-mars{
+    background-image: url(../img/mars.png);
+}
+.p-jupiter{
+    background-image: url(../img/jupiter.png);
+}
+.p-saturn{
+    background-image: url(../img/saturn.png);
+}
+.p-uranus{
+    background-image: url(../img/uranus.png);
+    
+}
+.p-neptune{
+    background-image: url(../img/neptune.png);
+}
+.p-pluto{
+    background-image: url(../img/pluto.png);
+}

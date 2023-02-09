@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html,body{
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;  
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;    
+}
+
+
+.sun{
+    background-color: yellow;
+    border-radius: 100%;
+    height: 42.5px;
+    width: 42.5px;
+    box-shadow: 0px 0px 15px yellow;
+}
+.orbite{
+    border: 1px dashed white;
+    border-radius: 100%;
+    transition: all .3s;
+}
+.o-me{
+    height: 85px;
+    width: 85px;
+    border-color: orange;
+    position: relative;
+}
+.o-ve{
+    height: 125px;
+    width: 125px;
+    border-color: orangered;
+}
+.o-ea{
+    height: 185px;
+    width: 185px;
+    border-color: rgb(112, 112, 255)
+}
+.o-ma{
+    height: 233.75px;
+    width: 233.75px;
+    border-color: brown;  
+}
+.o-ju{
+    height: 331.5px;
+    width: 331.5px;
+    border-color: sandybrown;
+}
+.o-sa{
+    height: 476px;
+    width:  476px;
+}
+.o-ur{
+    height: 586.5px;
+    width: 586.5px;
+}
+.o-ne{
+    height: 671.5px;
+    width: 671.5px;
+}
+.o-pl{
+    height: 739.5px;
+    width: 739.5px;
+}
+
+.p-mercury,.p-venus,.p-earth,.p-mars,.p-jupiter,.p-saturn,.p-uranus,.p-neptune,.p-pluto{
+    z-index: 1;
+    border-radius: 100%;
+    position: absolute;
+}
+.p-mercury{
+    height: 10.2px;
+    width: 10.2px;
+    left: -5.1px;
+}
+.p-venus{
+    height: 23.8px;
+    width: 23.8px;
+    left: -11.9px;
+}
+.p-earth{
+    height: 26px;
+    width: 26px;
+    left: -13px;   
+}
+.p-mars{
+    height: 13.6px;
+    width: 13.6px;
+    left: -6.8px;      
+}
+.p-jupiter{
+    height: 71.4px;
+    width: 71.4px;
+    left: -35.7px;
+}
+.p-saturn{
+    height: 60px;
+    width: 60px;
+    left: -30px;
+}
+.p-uranus{
+    height: 37.4px;
+    width: 37.4px;
+    left: -18.7px;
+}
+.p-neptune{
+    height: 34px;
+    width: 34px;
+    left: -17px;
+}
+.p-pluto{
+    height: 8px;
+    width: 8px;
+    left: -4px;
+}
+
+.mercury{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 327.25px;
+}
+.venus{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 307.25px;
+}
+.earth{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 277.25px;
+}
+.mars{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 253px;
+}
+.jupiter{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 204px;
+}
+.saturn{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 131.7px;
+}
+.uranus{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 76.5px;
+}
+.neptune{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 34px;
+}
+.pluto{
+    position: relative;
+    rotate: 0deg;
+    position: absolute;
+    top: 0px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/system.css">
+    <link rel="stylesheet" href="css/controls.css">
+    <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+    <div class="panel d-flex">
+        <h3>Panel Controls</h3>
+        <div class="p2 d-flex">
+            <div class="d-flex rew">
+                <button id="rew-m">Rewind back
+                    <div class="hand-box left">
+                        <img src="img/hand.ico" class="right hand-l">   
+                    </div>
+                </button>
+                <button id="rew-p">Rewind forward
+                    <div class="hand-box right d-flex">
+                        <img src="img/hand.ico" class="left hand-r">   
+                    </div>
+                </button>   
+            </div>
+
+        </div>
+        <div class="day d-flex">
+            <button id="dayM">Day -</button>
+            <button id="dayP">Day +</button>      
+        </div>
+        <div class="week">
+            <button id="weekM">Week -</button> 
+            <button id="weekP">Week +</button>
+        </div>
+        <div class="year d-flex">
+            <button id="yearM">Year -</button>
+            <button id="yearP">Year +</button>
+        </div>
+        <div class="size d-flex">
+            <button id="btn-style">Style</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <div class="style d-flex">
+        <h3>Style settings</h3>
+        <button id="texture-planet">Texture planets</button>
+        <button id="style-orbite">Style orbites</button>
+        <button id="realsize-planet">Realsize planets <span>(experemental)</span></button>
+        <button id="btn-cls">Close</button>
+             
+    </div>
+
+    <div class="date">
+        <span class="date-label">Date Now</span>
+        <span id="date-now">dd.mm.yyyy</span>
+        <span class="date-label">Date View</span>
+        <span id="date-view">dd.mm.yyyy </span>
+    </div>
+
+    <div class="system"></div>
+        <div class="pluto d-flex">
+            <div class="p-pluto"></div>
+            <div class="orbite o-pl d-flex"></div>
+        </div>
+
+        <div class="neptune d-flex">
+            <div class="p-neptune"></div>
+            <div class="orbite o-ne d-flex"></div>
+        </div>
+
+        <div class="uranus d-flex">
+            <div class="p-uranus"></div>
+            <div class="orbite o-ur d-flex"></div>
+        </div>
+
+        <div class="saturn d-flex">
+            <div class="p-saturn"></div>
+            <div class="orbite o-sa d-flex"></div>
+        </div>
+
+        <div class="jupiter d-flex">
+            <div class="p-jupiter"></div>
+            <div class="orbite o-ju d-flex"></div>
+        </div>
+
+        <div class="mars d-flex">
+            
+            <div class="p-mars"></div>
+            <div class="orbite o-ma d-flex"></div>
+        </div>
+
+        <div class="earth d-flex">
+            <div class="p-earth"></div>
+            <div class="orbite o-ea d-flex"></div>
+        </div>
+
+        <div class="venus d-flex">
+            <div class="p-venus"></div>
+            <div class="orbite o-ve d-flex"></div>
+
+        </div>
+
+        <div class="mercury d-flex">
+            <div class="p-mercury"></div>
+            <div class="orbite o-me d-flex">
+                <div class="sun"></div>
+            </div>    
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
