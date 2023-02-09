@@ -21,7 +21,7 @@ class Planet {
     setTexture(flag){//!
         if(flag === true){
             // this event about beautiful texture 
-            this.planet.style.backgroundImage = `url(../img/${this.name}.png)` 
+            this.planet.style.backgroundImage = `url(img/${this.name}.png)` 
             this.planet.style.backgroundColor = 'transparent'
         } else {
             // this event about bad texture 
@@ -105,7 +105,7 @@ const monitorDateView = document.querySelector('#date-view')
 const dateMonitor = new ViewerDate()
 let date = dateMonitor.getNowDate()
 // === flags in settings styles ===
-let modale = false;
+let modale = false
 let texturePlanet = true
 let styleOrbit = true
 let realSize = false
