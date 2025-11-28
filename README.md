@@ -20,7 +20,7 @@ Possition planets does not depend on ephemerids. (meyby future update)🤫
 ## 🖥️ Demo
 <p align="center">
   <img src="./imageSolarSystem.png" width="900" />
-  <p align="center"><a href='https://nickyeromin.github.io/Interactive-Solar-System/'>👉 Project here 👈</a></p>
+  <p align="center"><a href='https://nickyeromin.github.io/Interactive-Solar-System/'><b>👉Project here👈</b></a></p>
 </p>  
 
 ## 📦 Technologies
