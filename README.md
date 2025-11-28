@@ -19,11 +19,11 @@ Possition planets does not depend on ephemerids. (meyby future update)🤫
 
 ## 🖥️ Demo
 <p align="center">
-  <img src="./imageSolarSystem.png" width="500" />
+  <img src="./imageSolarSystem.png" width="900" />
   <p align="center"><a href='https://nickyeromin.github.io/Interactive-Solar-System/'>👉 Project here 👈</a></p>
 </p>  
 
 ## 📦 Technologies
-- **HTML5** — рендеринг графіки  
-- **JavaScript** — логіка обертання планет  
-- **CSS3** — оформлення сцен
+- **HTML5** — render graphics
+- **JavaScript** — logic rotate plannet in solar system
+- **CSS3** — stage design
